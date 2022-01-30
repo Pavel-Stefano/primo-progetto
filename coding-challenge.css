@@ -1,0 +1,85 @@
+.immagine{
+  background-image: url(background.jpg);
+  background-size: cover;
+  width: 100%;
+  height:auto;
+}
+
+.riquadro-opaco{
+  width: 65%;
+  height: auto;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.contenitore{
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  margin-top: 2%;
+}
+
+
+header{
+  color: rgba(0, 255, 0, 1);
+}
+
+header, nav{
+text-align: center;
+}
+
+
+header >h1{
+  font-size: 25px;
+  margin-top: 2%;
+}
+
+.logo{
+  width: 25%;
+  margin-top: 10%;
+}
+
+nav{
+  background-color: rgba(0, 255, 0, 1);
+  padding: 5px;
+  margin-top: 0;
+}
+
+nav >input{
+  font-size: 10px;
+}
+
+section{
+  margin-top: 10px;
+  padding: 1px;
+  color: white;
+  font-size: 15px;
+}
+
+section >p{
+  margin: 0;
+}
+
+.monopattino{
+  font-size: 20px;
+}
+
+
+.caricamento-1{
+  width: 300px;
+  background-color: orange;
+  border-radius: 5px;
+}
+
+.caricamento-2{
+  width: 600px;
+  background-color: green;
+  border-radius: 5px;
+}
+
+.caricamento-3{
+  width: 100px;
+  background-color: fuchsia;
+  border-radius: 5px;
+}
